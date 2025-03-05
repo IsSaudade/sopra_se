@@ -13,10 +13,10 @@
 | [Member 4] | [email4@uzh.ch] | [12-345-681] | [github-user4] |
 | [Member 5] | [email5@uzh.ch] | [12-345-682] | [github-user5] |
 
-## Project: UZH Study Buddy
+## Project: CardMaster Arena
 
 ### Project Description (max. 150 words)
-UZH Study Buddy is a collaborative platform designed to connect University of Zurich students for academic collaboration. The platform addresses the challenge of finding compatible study partners and sharing course resources efficiently. Students can create profiles, join/create study groups for specific courses, schedule study sessions, and collaborate on documents in real-time. Study Buddy also enables resource sharing, with features for uploading, organizing, and rating lecture notes and study materials. The application integrates external services for weather forecasts and calendar synchronization to enhance the planning of study sessions. By facilitating peer connections based on courses, schedules, and study preferences, UZH Study Buddy aims to improve the academic experience, foster collaboration, and increase study productivity for UZH students.
+CardMaster Arena is a strategic online card game platform designed for multiplayer gameplay and competitive tournaments. The platform addresses the challenge of finding engaging and intellectually stimulating card games that incorporate modern AI capabilities. Players can register accounts, build customized decks, and compete in real-time multiplayer matches with intuitive drag-and-drop gameplay. The platform features AI-powered assistants that can provide strategic suggestions, analyze past games, and help organize card collections. CardMaster Arena also offers tournament organization, leaderboards, and social features like friend lists and direct messaging. The game's unique mechanics combine elements of resource management, strategic positioning, and tactical card combinations. By integrating AI technologies with competitive gameplay and community features, CardMaster Arena aims to create an engaging, strategic gaming experience for casual players and competitive enthusiasts alike.
 
 ## User Stories
 
@@ -24,11 +24,11 @@ UZH Study Buddy is a collaborative platform designed to connect University of Zu
 
 #### ID: US1
 **Category:** User Management  
-**Story:** As a new user, I want to create an account with my university credentials so that I can access the platform's features.  
+**Story:** As a new user, I want to create an account with my credentials so that I can access the game platform and save my progress.  
 **Acceptance Criteria:**
-- Users can register with their name, email, password, and major/department
-- Email validation ensures only @uzh.ch email addresses can register
-- Users receive a confirmation email after successful registration
+- Users can register with username, email, and password
+- Email validation ensures that email addresses are valid
+- Users receive a confirmation notification after successful registration
 - Users can log in with their credentials after registration  
 
 **Priority:** Critical  
@@ -36,201 +36,202 @@ UZH Study Buddy is a collaborative platform designed to connect University of Zu
 
 #### ID: US2
 **Category:** User Management  
-**Story:** As a registered user, I want to set up my academic profile so that I can be matched with compatible study partners.  
+**Story:** As a registered user, I want to set up my gaming profile so that I can personalize my experience and be recognized by other players.  
 **Acceptance Criteria:**
-- Users can add their major, semester, and courses they are currently enrolled in
-- Users can specify their study preferences (group/solo, online/in-person)
-- Users can set their usual availability for study sessions
-- Users can add skills and areas of expertise
+- Users can add a display name, avatar, and short biography
+- Users can set their game preferences and notification settings
+- Users can specify their skill level (beginner, intermediate, expert)
 - Profile information can be edited at any time  
 
 **Priority:** High  
-**Estimate:** 10h
+**Estimate:** 6h
 
 #### ID: US3
 **Category:** User Management  
-**Story:** As a user, I want to update my online/offline status so that other users know if I'm available for study sessions.  
+**Story:** As a user, I want to update my online/offline status so that other players know if I'm available for games.  
 **Acceptance Criteria:**
-- Users can toggle between "online" and "offline" status
-- Status is visible to other users
-- Status automatically changes to "offline" after prolonged inactivity  
+- Users can toggle between "online," "busy," and "offline" status
+- Status is visible to other users on friends list and in game lobbies
+- Status automatically changes to "offline" after prolonged inactivity
+- Users can set a custom status message (e.g., "Looking for tournament partners")  
 
 **Priority:** Medium  
 **Estimate:** 4h
 
-### Study Group Features
+### Deck Building and Card Management
 
 #### ID: US4
-**Category:** Study Groups  
-**Story:** As a student, I want to create a study group for a specific course so that I can collaborate with peers taking the same course.  
+**Category:** Card Management  
+**Story:** As a player, I want to browse the available cards so that I can understand game mechanics and plan my strategy.  
 **Acceptance Criteria:**
-- Users can create a study group with a name, description, and associated course
-- Creator can set group to public (anyone can join) or private (invitation only)
-- Creator can set a maximum number of participants
-- Group becomes searchable after creation  
-
-**Priority:** Critical  
-**Estimate:** 8h
-
-#### ID: US5
-**Category:** Study Groups  
-**Story:** As a student, I want to search and join existing study groups so that I don't have to study alone.  
-**Acceptance Criteria:**
-- Users can search for groups by course name or code
-- Users can view group details (description, members, etc.) before joining
-- Users can send join requests to private groups
-- Users can directly join public groups
-- Users receive notifications when their join request is accepted  
-
-**Priority:** Critical  
-**Estimate:** 8h
-
-#### ID: US6
-**Category:** Study Groups  
-**Story:** As a study group member, I want to communicate with my group members so that we can coordinate our study activities.  
-**Acceptance Criteria:**
-- Groups have a dedicated chat functionality
-- Users can send text messages in the group chat
-- Users can see when others are typing
-- Users can share links in the chat
-- Chat history is preserved for future reference  
-
-**Priority:** High  
-**Estimate:** 12h
-
-### Study Session Planning
-
-#### ID: US7
-**Category:** Study Sessions  
-**Story:** As a study group admin, I want to schedule study sessions so that all members can prepare and attend.  
-**Acceptance Criteria:**
-- Admin can create study sessions with date, time, duration, and location
-- Admin can set session as online or in-person
-- For online sessions, a meeting link can be added
-- For in-person sessions, a campus location can be specified
-- Weather forecast is displayed for upcoming in-person sessions  
-
-**Priority:** High  
-**Estimate:** 8h
-
-#### ID: US8
-**Category:** Study Sessions  
-**Story:** As a study group member, I want to RSVP to scheduled study sessions so that the group knows who will attend.  
-**Acceptance Criteria:**
-- Members can mark attendance as "Going", "Maybe", or "Not Going"
-- Members can add a note with their RSVP
-- Group admin can see the list of attendees
-- Users can sync the session to their Google Calendar using the Google Calendar API
-- Users receive reminders before sessions they've committed to  
-
-**Priority:** Medium  
-**Estimate:** 6h
-
-### Resource Sharing
-
-#### ID: US9
-**Category:** Resource Management  
-**Story:** As a student, I want to upload and share course materials so that my study partners can access them.  
-**Acceptance Criteria:**
-- Users can upload files (PDFs, images, documents)
-- Users can associate uploads with specific courses
-- Files are stored in Google Cloud Storage
-- Users can add titles and descriptions to uploaded files
-- System shows upload date and file size  
+- Cards are organized by categories (attack, defense, special, etc.)
+- Users can search cards by name, type, or attributes
+- Card details include visual representation, stats, and effects
+- Cards show rarity indicators and collection status  
 
 **Priority:** Critical  
 **Estimate:** 10h
 
-#### ID: US10
-**Category:** Resource Management  
-**Story:** As a student, I want to browse and search shared resources so that I can find relevant study materials.  
+#### ID: US5
+**Category:** Card Management  
+**Story:** As a player, I want to build and save multiple custom decks so that I can use different strategies for different game modes.  
 **Acceptance Criteria:**
-- Users can browse resources by course
-- Users can search resources by filename and description
-- Resources can be filtered by file type, upload date, and uploader
-- Resources show number of downloads and average rating
-- Users can preview PDFs and images within the application  
+- Users can create named deck configurations
+- Decks enforce game rules (min/max cards, card limits, etc.)
+- Users can edit, duplicate, or delete existing decks
+- System validates deck legality before saving
+- Users can set a default deck for quick play  
 
-**Priority:** High  
-**Estimate:** 8h
+**Priority:** Critical  
+**Estimate:** 12h
 
-#### ID: US11
-**Category:** Resource Management  
-**Story:** As a student, I want to rate and comment on shared resources so that I can help others find quality materials.  
+### Gameplay Features
+
+#### ID: US6
+**Category:** Gameplay  
+**Story:** As a player, I want to join or create a game room so that I can play against other users in real-time.  
 **Acceptance Criteria:**
-- Users can rate resources on a 5-star scale
-- Users can leave comments on resources
-- Average rating is displayed for each resource
-- Comments show username and timestamp
-- Users can edit or delete their own comments  
+- Users can create private or public game rooms
+- Room creator can set game parameters (time limits, game mode)
+- Users can browse and filter available public rooms
+- Game rooms show current players and spectator count
+- Players receive notifications when game is ready to start  
 
-**Priority:** Medium  
-**Estimate:** 6h
+**Priority:** Critical  
+**Estimate:** 14h
 
-### Collaborative Tools
-
-#### ID: US12
-**Category:** Collaboration  
-**Story:** As a study group member, I want to collaboratively edit documents with my group in real-time so that we can work together efficiently.  
+#### ID: US7
+**Category:** Gameplay  
+**Story:** As a player, I want to use a drag-and-drop interface to play cards during my turn so that I can execute my strategy intuitively.  
 **Acceptance Criteria:**
-- Group members can create collaborative documents
-- Multiple users can edit the same document simultaneously
-- Changes are visible to all users in real-time
-- Users can see who is currently editing the document
-- Document history is maintained for review  
+- Cards can be dragged from hand to appropriate play areas
+- Invalid moves are visually indicated and prevented
+- Card animations provide feedback on successful plays
+- Players can view detailed card information during gameplay
+- Interface adapts to different screen sizes  
 
 **Priority:** Critical  
 **Estimate:** 16h
 
-#### ID: US13
-**Category:** Collaboration  
-**Story:** As a study group member, I want to create and share flashcards with my group so that we can study together effectively.  
+#### ID: US8
+**Category:** Gameplay  
+**Story:** As a player, I want to spectate ongoing games so that I can learn strategies from more experienced players.  
 **Acceptance Criteria:**
-- Users can create flashcard sets with questions and answers
-- Flashcard sets can be associated with specific courses
-- Group members can view and study all shared flashcards
-- Users can mark flashcards as "mastered" or "need review"
-- The system tracks progress through flashcard sets  
+- Users can join games as spectators without affecting gameplay
+- Spectator view shows all public information but hides players' hands
+- Spectators can chat with other spectators without distracting players
+- Users can find games to spectate through a browsable list
+- Optional delayed viewing to prevent cheating  
 
 **Priority:** Medium  
+**Estimate:** 8h
+
+### AI Integration
+
+#### ID: US9
+**Category:** AI Features  
+**Story:** As a player, I want to receive AI-powered recommendations during gameplay so that I can improve my strategy and decision-making.  
+**Acceptance Criteria:**
+- AI assistant analyzes current game state and suggests possible moves
+- Recommendations consider card synergies and opponent's likely strategies
+- Users can toggle AI assistance on/off and set skill level
+- AI explains rationale behind recommendations
+- System integrates with DeepSeek or similar AI API  
+
+**Priority:** High  
+**Estimate:** 20h
+
+#### ID: US10
+**Category:** AI Features  
+**Story:** As a player, I want the AI to help organize my card collection and suggest optimal deck builds based on my playstyle.  
+**Acceptance Criteria:**
+- AI analyzes user's play history and preferred strategies
+- System suggests card combinations that complement user's style
+- AI provides deck improvement recommendations
+- Users can accept suggestions automatically or manually
+- AI explains rationale behind suggestions  
+
+**Priority:** Medium  
+**Estimate:** 16h
+
+#### ID: US11
+**Category:** AI Features  
+**Story:** As a new player, I want to practice against an AI opponent of adjustable difficulty so that I can learn the game at my own pace.  
+**Acceptance Criteria:**
+- AI opponents available in multiple difficulty levels
+- AI plays with realistic and varied strategies
+- Practice mode provides tips and explanations
+- Game results are recorded but don't affect official rankings
+- Practice sessions can be paused and resumed  
+
+**Priority:** High  
+**Estimate:** 24h
+
+### Social and Community Features
+
+#### ID: US12
+**Category:** Social Features  
+**Story:** As a player, I want to add friends and communicate with them so that I can build a gaming community and arrange matches.  
+**Acceptance Criteria:**
+- Users can send and accept friend requests
+- Friend list shows online status and current activity
+- Users can send direct messages to friends
+- Users can invite friends to game rooms
+- Players can block unwanted communications  
+
+**Priority:** High  
 **Estimate:** 10h
 
-#### ID: US14
-**Category:** Collaboration  
-**Story:** As a group admin, I want to create and assign tasks to group members so that we can divide work effectively.  
+#### ID: US13
+**Category:** Social Features  
+**Story:** As a competitive player, I want to view leaderboards and player statistics so that I can track my progress and set goals.  
 **Acceptance Criteria:**
-- Admin can create tasks with descriptions and deadlines
-- Admin can assign tasks to specific group members
-- Members receive notifications about assigned tasks
-- Tasks show status (Not Started, In Progress, Completed)
-- Members can update task status and add progress notes  
+- Leaderboards show rankings by win rate, rating, or other metrics
+- Users can filter leaderboards by time period or game mode
+- Personal statistics page shows detailed performance metrics
+- Players can see their ranking history over time
+- Option to make profile statistics public or private  
+
+**Priority:** Medium  
+**Estimate:** 8h
+
+#### ID: US14
+**Category:** Tournament Features  
+**Story:** As a player, I want to create and participate in tournaments so that I can compete in a structured format with other players.  
+**Acceptance Criteria:**
+- Users can create custom tournaments with various bracket formats
+- Tournament creator can set entry requirements and prizes
+- Players receive notifications about tournament progress
+- Tournament results are recorded and viewable in history
+- Integration with leaderboard system for ranking points  
 
 **Priority:** Low  
-**Estimate:** 8h
+**Estimate:** 30h
 
 ### Additional Features
 
 #### ID: US15
 **Category:** Integration  
-**Story:** As a user, I want to check the weather forecast for planned in-person study sessions so that I can prepare accordingly.  
+**Story:** As a user, I want to share my game results on social media so that I can showcase my achievements to friends outside the platform.  
 **Acceptance Criteria:**
-- System integrates with a weather API
-- Weather forecast is displayed for the location and time of in-person sessions
-- Forecast includes temperature and precipitation probability
-- Weather updates automatically as the session date approaches  
+- Integration with major social media platforms
+- Customizable sharing templates with game highlights
+- Privacy settings to control what information is shared
+- Ability to capture and share game replays or key moments
+- Links back to the game platform to encourage new sign-ups  
 
 **Priority:** Low  
-**Estimate:** 4h
+**Estimate:** 6h
 
 #### ID: US16
-**Category:** Analytics  
-**Story:** As a student, I want to track my study progress so that I can improve my study habits.  
+**Category:** Accessibility  
+**Story:** As a player with visual impairments, I want accessibility features so that I can enjoy the game equally.  
 **Acceptance Criteria:**
-- System records time spent in study sessions
-- Users can see statistics on their study patterns
-- Users can set study goals and track progress
-- System provides visual representations of study data
-- Data is private to the individual user  
+- High contrast mode and customizable text sizes
+- Screen reader compatibility for UI elements
+- Audio cues for important game events
+- Keyboard shortcuts for all game actions
+- Settings are saved to user profile  
 
-**Priority:** Low  
-**Estimate:** 8h
+**Priority:** Medium  
+**Estimate:** 12h
