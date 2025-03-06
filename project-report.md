@@ -235,3 +235,50 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 
 **Priority:** Medium  
 **Estimate:** 12h
+
+
+### Gameplay Experience
+
+
+#### ID: US17
+**Category:** Gameplay  
+**Story:** As a player, I want to see my hole cards and community cards so that I can make strategic decisions based on the current state of the game.  
+**Acceptance Criteria:**
+- Player's private hole cards are only visible to themselves
+- Community card area clearly displays all shared cards
+- Card suits and values have clear visual distinction
+- Interface highlights the current best possible hand combination
+- Players can check odds and possible hand types at any time  
+**Priority:** Critical  
+**Estimate:** 12h
+
+
+### AI Features
+
+
+#### ID: US19
+**Category:** AI Features  
+**Story:** As a beginner player, I want to receive real-time strategy suggestions from AI so that I can learn basic strategies and probabilities.  
+**Acceptance Criteria:**
+- AI analyzes current hole cards, community cards, and odds to provide suggestions
+- Recommendations include action choices and explanations
+- Shows current win probability and potential hand possibilities
+- Users can adjust the level of detail in AI suggestions
+- Suggestions consider current pot size and other players' behavior patterns  
+**Priority:** High  
+**Estimate:** 18h
+
+
+
+### Game Analysis
+#### ID: US22
+**Category:** Game Analysis  
+**Story:** As a player, I want to view my game history and statistical analysis so that I can understand and improve my playing strategy.  
+**Acceptance Criteria:**
+- Detailed game history including key hands, decisions, and outcomes
+- Statistical metrics displayed (profit/loss, VPIP, PFR, etc.)
+- Visual charts showing long-term performance trends
+- AI-provided strategy analysis and improvement suggestions
+- Ability to replay important hands and key decision points  
+**Priority:** Medium  
+**Estimate:** 15h
