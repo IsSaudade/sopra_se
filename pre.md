@@ -15,8 +15,8 @@
 
 ## Project: PokerMaster Arena
 
-### Project Description (max. 150 words)
-PokerMaster Arena is an online Texas Hold'em poker platform designed for multiplayer gameplay. The platform addresses the challenge of finding engaging and accessible poker games that incorporate modern AI capabilities. Players can register accounts and compete in real-time multiplayer matches with intuitive betting controls. The platform features AI-powered assistants that can provide strategic suggestions, analyze hand histories, and help players improve their poker skills. PokerMaster Arena also offers basic tournament organization and win-rate leaderboards. The game follows standard Texas Hold'em rules with blinds, betting rounds, and community cards. By integrating AI technologies with competitive gameplay, PokerMaster Arena aims to create an engaging poker experience for casual players and poker enthusiasts alike.
+### Project Description
+PokerMaster Arena is an online Texas Hold’em platform where players can join or create game rooms and play in real time. Users can set up profiles, track their stats, and compete on leaderboards. The game includes social features like friends lists and chat, as well as AI-powered tips and probability calculations to help players improve. Spectator mode lets users watch ongoing games, and simple tutorials make it easy to learn. Whether you're a beginner or an expert, PokerMaster Arena offers a fun and competitive poker experience.
 
 ## User and Account Management
 
@@ -28,7 +28,8 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Users can specify their poker experience level (Beginner, Intermediate, Expert).
 - Users can update their birthdate (optional).
 - Users can only edit their own profiles, not others'.
-- Profile information can be edited and saved to the database at any time.  
+- Profile information can be edited and saved to the database at any time.
+  
 **Priority:** High  
 **Estimated Time:** 12 hours  
 
@@ -40,6 +41,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Users can click on a username to see a detailed profile.
 - Profile pages display username, online status, creation date, and birthday (if set).
 - Only logged-in users can access the user list and profile pages.  
+
 **Priority:** High  
 **Estimated Time:** 8 hours  
 
@@ -55,6 +57,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Users can browse available public game tables.
 - Tables display current players and available seats.
 - The room creator decides when to start the game.  
+
 **Priority:** Critical  
 **Estimated Time:** 18 hours  
 
@@ -67,6 +70,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Players can see the current pot size and other players' actions.
 - The game follows Texas Hold'em rules, handling flop, turn, and river phases automatically.
 - The interface highlights the winning hand at showdown.  
+
 **Priority:** Critical  
 **Estimated Time:** 24 hours  
 
@@ -79,6 +83,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Players can see their chip balance.
 - Players can see other players' actions (e.g., betting, calling, folding).
 - The interface includes a timer to ensure timely decisions.  
+
 **Priority:** High  
 **Estimated Time:** 14 hours  
 
@@ -90,6 +95,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Players can view key statistics (e.g., participation rate, pots won).
 - Players can review game history, including critical hands and decisions.
 - If all other players fold, the winner can choose whether to reveal their hand.  
+
 **Priority:** High  
 **Estimated Time:** 16 hours  
 
@@ -104,6 +110,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Users can invite friends to join poker tables.
 - Game rooms provide real-time chat functionality.
 - Players can send and receive private messages.  
+
 **Priority:** Medium  
 **Estimated Time:** 16 hours  
 
@@ -117,6 +124,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Spectators can chat with other spectators but not with active players.
 - Spectators can view game statistics and player profiles.
 - Spectator mode supports up to 50 simultaneous viewers.  
+
 **Priority:** Medium  
 **Estimated Time:** 16 hours  
 
@@ -131,6 +139,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Users can view historical game records and trend analysis.
 - Statistics can be filtered by time range (last 7 days, 30 days, etc.).
 - Players can compare their stats with friends or global averages.  
+
 **Priority:** Medium  
 **Estimated Time:** 18 hours  
 
@@ -144,6 +153,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Probability calculation follows standard Texas Hold'em odds.
 - Users can toggle probability display on or off at any time.
 - Probability calculations do not impact game fairness.  
+
 **Priority:** Medium  
 **Estimated Time:** 12 hours  
 
@@ -155,6 +165,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Tips are based on the current game state and hand.
 - Users can toggle strategy tips on or off at any time.
 - Tips do not affect game fairness.  
+
 **Priority:** Medium  
 **Estimated Time:** 10 hours  
 
@@ -168,6 +179,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Preferences can be adjusted before or during a game.
 - Preferences are saved to the user profile.
 - Preferences do not impact game fairness.  
+
 **Priority:** Medium  
 **Estimated Time:** 10 hours  
 
@@ -179,6 +191,7 @@ PokerMaster Arena is an online Texas Hold'em poker platform designed for multipl
 - Tutorials include how to bet, call, raise, and fold.
 - Users can access tutorials at any time.
 - Tutorial content is clear and easy to understand.  
+
 **Priority:** Low  
 **Estimated Time:** 8 hours  
 
