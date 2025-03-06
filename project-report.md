@@ -13,10 +13,10 @@
 | [Guanqiao Li] | [guanqiao.li@uzh.ch] | [23-746-241] | [unscttp] |
 | [Zhengxun Yin] | [zhengxun.yin@uzh.ch] | [23-754-179] | [YinZhengxun] |
 
-## Project: CardMaster Arena
+## Project: PokerMaster Arena
 
 ### Project Description (max. 150 words)
-CardMaster Arena is a strategic online card game platform designed for multiplayer gameplay and competitive tournaments. The platform addresses the challenge of finding engaging and intellectually stimulating card games that incorporate modern AI capabilities. Players can register accounts, build customized decks, and compete in real-time multiplayer matches with intuitive drag-and-drop gameplay. The platform features AI-powered assistants that can provide strategic suggestions, analyze past games, and help organize card collections. CardMaster Arena also offers tournament organization, leaderboards, and social features like friend lists and direct messaging. The game's unique mechanics combine elements of resource management, strategic positioning, and tactical card combinations. By integrating AI technologies with competitive gameplay and community features, CardMaster Arena aims to create an engaging, strategic gaming experience for casual players and competitive enthusiasts alike.
+PokerMaster Arena is an online Texas Hold'em poker platform designed for multiplayer gameplay. The platform addresses the challenge of finding engaging and accessible poker games that incorporate modern AI capabilities. Players can register accounts and compete in real-time multiplayer matches with intuitive betting controls. The platform features AI-powered assistants that can provide strategic suggestions, analyze hand histories, and help players improve their poker skills. PokerMaster Arena also offers basic tournament organization and win-rate leaderboards. The game follows standard Texas Hold'em rules with blinds, betting rounds, and community cards. By integrating AI technologies with competitive gameplay, PokerMaster Arena aims to create an engaging poker experience for casual players and poker enthusiasts alike.
 
 ## User Stories
 
@@ -24,7 +24,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 
 #### ID: US1
 **Category:** User Management  
-**Story:** As a new user, I want to create an account with my credentials so that I can access the game platform and save my progress.  
+**Story:** As a new user, I want to create an account with my credentials so that I can access the poker platform and save my progress.  
 **Acceptance Criteria:**
 - Users can register with username and password
 - Users receive a confirmation notification after successful registration
@@ -35,69 +35,65 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 
 #### ID: US2
 **Category:** User Management  
-**Story:** As a registered user, I want to set up my gaming profile so that I can personalize my experience and be recognized by other players.  
+**Story:** As a registered user, I want to set up my gaming profile so that I can be recognized by other players.  
 **Acceptance Criteria:**
-- Users can add a display name, avatar, and short biography
-- Users can set their game preferences and notification settings
-- Users can specify their skill level (beginner, intermediate, expert)
+- Users can add a display name and avatar
+- Users can specify their poker experience level (beginner, intermediate, expert)
 - Profile information can be edited at any time  
 
 **Priority:** High  
-**Estimate:** 6h
+**Estimate:** 4h
 
 #### ID: US3
 **Category:** User Management  
 **Story:** As a user, I want to update my online/offline status so that other players know if I'm available for games.  
 **Acceptance Criteria:**
-- Users can toggle between "online," "busy," and "offline" status
-- Status is visible to other users on friends list and in game lobbies
-- Status automatically changes to "offline" after prolonged inactivity
-- Users can set a custom status message (e.g., "Looking for tournament partners")  
+- Users can toggle between "online" and "offline" status
+- Status is visible to other users in game lobbies
+- Status automatically changes to "offline" after prolonged inactivity  
 
 **Priority:** Medium  
-**Estimate:** 4h
+**Estimate:** 3h
 
 
 ### Gameplay Features
 
 #### ID: US6
 **Category:** Gameplay  
-**Story:** As a player, I want to join or create a game room so that I can play against other users in real-time.  
+**Story:** As a player, I want to join or create a poker table so that I can play against other users in real-time.  
 **Acceptance Criteria:**
-- Users can create private or public game rooms
-- Room creator can set game parameters (time limits, game mode)
-- Users can browse and filter available public rooms
-- Game rooms show current players and spectator count
+- Users can create private or public tables
+- Table creator can set basic parameters (blind levels, starting chips)
+- Users can browse available public tables
+- Tables show current players and available seats
 - Players receive notifications when game is ready to start  
 
 **Priority:** Critical  
-**Estimate:** 14h
+**Estimate:** 12h
 
 #### ID: US7
 **Category:** Gameplay  
-**Story:** As a player, I want to use a drag-and-drop interface to play cards during my turn so that I can execute my strategy intuitively.  
+**Story:** As a player, I want to place bets, call, raise, or fold during my turn so that I can execute my poker strategy.  
 **Acceptance Criteria:**
-- Cards can be dragged from hand to appropriate play areas
-- Invalid moves are visually indicated and prevented
-- Card animations provide feedback on successful plays
-- Players can view detailed card information during gameplay
-- Interface adapts to different screen sizes  
+- Clear buttons for betting actions (fold, check, call, raise)
+- Betting slider for raise amounts
+- Invalid moves are prevented
+- Visual feedback on successful actions
+- Timer for decision-making to keep the game moving  
 
 **Priority:** Critical  
-**Estimate:** 16h
+**Estimate:** 14h
 
 #### ID: US8
 **Category:** Gameplay  
 **Story:** As a player, I want to spectate ongoing games so that I can learn strategies from more experienced players.  
 **Acceptance Criteria:**
-- Users can join games as spectators without affecting gameplay
-- Spectator view shows all public information but hides players' hands
-- Spectators can chat with other spectators without distracting players
-- Users can find games to spectate through a browsable list
-- Optional delayed viewing to prevent cheating  
+- Users can join tables as spectators without affecting gameplay
+- Spectator view shows all community cards but hides players' hole cards
+- Users can find games to spectate through a browsable list  
 
 **Priority:** Medium  
-**Estimate:** 8h
+**Estimate:** 6h
 
 #### ID: US9
 **Category:** Gameplay  
@@ -106,121 +102,70 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 - Player's private hole cards are only visible to themselves
 - Community card area clearly displays all shared cards
 - Card suits and values have clear visual distinction
-- Interface highlights the current best possible hand combination
-- Players can check odds and possible hand types at any time  
+- Interface highlights winning hand at showdown  
+
 **Priority:** Critical  
-**Estimate:** 12h
+**Estimate:** 10h
 
 ### AI Integration
 
 #### ID: US10
 **Category:** AI Features  
-**Story:** As a player, I want to receive AI-powered recommendations during gameplay so that I can improve my strategy and decision-making.  
+**Story:** As a player, I want to receive basic AI-powered recommendations during gameplay so that I can improve my strategy.  
 **Acceptance Criteria:**
-- AI assistant analyzes current game state and suggests possible moves
-- Recommendations consider card synergies and opponent's likely strategies
-- Users can toggle AI assistance on/off and set skill level
-- AI explains rationale behind recommendations
-- System integrates with DeepSeek or similar AI API  
+- AI assistant provides simple odds calculations
+- Users can toggle AI assistance on/off
+- AI explains basic poker concepts to beginners  
 
 **Priority:** High  
-**Estimate:** 20h
-
-#### ID: US11
-**Category:** AI Features  
-**Story:** As a player, I want the AI to help organize my card collection and suggest optimal deck builds based on my playstyle.  
-**Acceptance Criteria:**
-- AI analyzes user's play history and preferred strategies
-- System suggests card combinations that complement user's style
-- AI provides deck improvement recommendations
-- Users can accept suggestions automatically or manually
-- AI explains rationale behind suggestions  
-
-**Priority:** Medium  
 **Estimate:** 16h
 
 #### ID: US12
 **Category:** AI Features  
-**Story:** As a new player, I want to practice against an AI opponent of adjustable difficulty so that I can learn the game at my own pace.  
+**Story:** As a new player, I want to practice against an AI opponent so that I can learn the game without pressure.  
 **Acceptance Criteria:**
-- AI opponents available in multiple difficulty levels
-- AI plays with realistic and varied strategies
-- Practice mode provides tips and explanations
-- Game results are recorded but don't affect official rankings
-- Practice sessions can be paused and resumed  
+- AI opponents available in beginner difficulty
+- AI plays with realistic basic strategies
+- Practice mode provides tips
+- Game results don't affect official rankings  
 
 **Priority:** High  
-**Estimate:** 24h
+**Estimate:** 20h
 
 ### Social and Community Features
 
 #### ID: US13
 **Category:** Social Features  
-**Story:** As a player, I want to add friends and communicate with them so that I can build a gaming community and arrange matches.  
+**Story:** As a player, I want to add friends so that I can arrange matches with people I know.  
 **Acceptance Criteria:**
 - Users can send and accept friend requests
-- Friend list shows online status and current activity
-- Users can send direct messages to friends
-- Users can invite friends to game rooms
-- Players can block unwanted communications  
-
-**Priority:** High  
-**Estimate:** 10h
-
-#### ID: US14
-**Category:** Social Features  
-**Story:** As a competitive player, I want to view leaderboards and player statistics so that I can track my progress and set goals.  
-**Acceptance Criteria:**
-- Leaderboards show rankings by win rate, rating, or other metrics
-- Users can filter leaderboards by time period or game mode
-- Personal statistics page shows detailed performance metrics
-- Players can see their ranking history over time
-- Option to make profile statistics public or private  
+- Friend list shows online status
+- Users can invite friends to poker tables  
 
 **Priority:** Medium  
 **Estimate:** 8h
 
-#### ID: US15
-**Category:** Tournament Features  
-**Story:** As a player, I want to create and participate in tournaments so that I can compete in a structured format with other players.  
+#### ID: US14
+**Category:** Social Features  
+**Story:** As a competitive player, I want to view win rate leaderboards so that I can track my progress.  
 **Acceptance Criteria:**
-- Users can create custom tournaments with various bracket formats
-- Tournament creator can set entry requirements and prizes
-- Players receive notifications about tournament progress
-- Tournament results are recorded and viewable in history
-- Integration with leaderboard system for ranking points  
+- Leaderboard shows rankings by win rate only
+- Personal statistics page shows basic performance metrics
+- Players can see their total hands played and win percentage  
 
-**Priority:** Low  
-**Estimate:** 30h
+**Priority:** Medium  
+**Estimate:** 6h
+
 
 ### Additional Features
 
-#### ID: US16
-**Category:** Integration  
-**Story:** As a user, I want to share my game results on social media so that I can showcase my achievements to friends outside the platform.  
-**Acceptance Criteria:**
-- Integration with major social media platforms
-- Customizable sharing templates with game highlights
-- Privacy settings to control what information is shared
-- Ability to capture and share game replays or key moments
-- Links back to the game platform to encourage new sign-ups  
-
-**Priority:** Low  
-**Estimate:** 6h
-
-#### ID: US17
+#### ID: US15
 **Category:** Accessibility  
-**Story:** As a player with visual impairments, I want accessibility features so that I can enjoy the game equally.  
+**Story:** As a player with visual impairments, I want basic accessibility features so that I can enjoy the game.  
 **Acceptance Criteria:**
-- High contrast mode and customizable text sizes
-- Screen reader compatibility for UI elements
-- Audio cues for important game events
-- Keyboard shortcuts for all game actions
-- Settings are saved to user profile  
+- High contrast mode for cards and betting controls
+- Larger text option for important game information
+- Simple keyboard shortcuts for common actions  
 
 **Priority:** Medium  
-**Estimate:** 12h
-
-
-
-
+**Estimate:** 8h
