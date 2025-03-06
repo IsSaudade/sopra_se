@@ -11,7 +11,7 @@
 | [Maorong Lin] | [maorong.lin@uzh.ch] | [23-746-761] | [Qavrox] |
 | [Zhan Yang] | [zhan.yang@uzh.ch] | [24-742-603] | [zyangbg] |
 | [Guanqiao Li] | [guanqiao.li@uzh.ch] | [23-746-241] | [unscttp] |
-| [Member 5] | [email5@uzh.ch] | [12-345-682] | [github-user5] |
+| [Zhengxun Yin] | [zhengxunyin@uzh.ch] | [23-754-179] | [YinZhengxun] |
 
 ## Project: CardMaster Arena
 
