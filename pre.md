@@ -1,3 +1,23 @@
+# Software Praktikum (SoPra) - FS25
+## Milestone 1 - Project Report
+
+### Group Information
+**Group Number:** [45]
+
+**Group Members:**
+| Name | UZH Email | Student ID | GitHub Username |
+|------|-----------|------------|-----------------|
+| [Yutian Lei] | [yutian.lei@uzh.ch] | [23-746-258] | [IsSaudade] |
+| [Maorong Lin] | [maorong.lin@uzh.ch] | [23-746-761] | [Qavrox] |
+| [Zhan Yang] | [zhan.yang@uzh.ch] | [24-742-603] | [zyangbg] |
+| [Guanqiao Li] | [guanqiao.li@uzh.ch] | [23-746-241] | [unscttp] |
+| [Zhengxun Yin] | [zhengxun.yin@uzh.ch] | [23-754-179] | [YinZhengxun] |
+
+## Project: PokerMaster Arena
+
+### Project Description (max. 150 words)
+PokerMaster Arena is an online Texas Hold'em poker platform designed for multiplayer gameplay. The platform addresses the challenge of finding engaging and accessible poker games that incorporate modern AI capabilities. Players can register accounts and compete in real-time multiplayer matches with intuitive betting controls. The platform features AI-powered assistants that can provide strategic suggestions, analyze hand histories, and help players improve their poker skills. PokerMaster Arena also offers basic tournament organization and win-rate leaderboards. The game follows standard Texas Hold'em rules with blinds, betting rounds, and community cards. By integrating AI technologies with competitive gameplay, PokerMaster Arena aims to create an engaging poker experience for casual players and poker enthusiasts alike.
+
 ## User and Account Management
 
 ### ID: US1  
