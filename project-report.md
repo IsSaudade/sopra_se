@@ -26,8 +26,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Category:** User Management  
 **Story:** As a new user, I want to create an account with my credentials so that I can access the game platform and save my progress.  
 **Acceptance Criteria:**
-- Users can register with username, email, and password
-- Email validation ensures that email addresses are valid
+- Users can register with username and password
 - Users receive a confirmation notification after successful registration
 - Users can log in with their credentials after registration  
 
@@ -58,32 +57,6 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** Medium  
 **Estimate:** 4h
 
-### Deck Building and Card Management
-
-#### ID: US4
-**Category:** Card Management  
-**Story:** As a player, I want to browse the available cards so that I can understand game mechanics and plan my strategy.  
-**Acceptance Criteria:**
-- Cards are organized by categories (attack, defense, special, etc.)
-- Users can search cards by name, type, or attributes
-- Card details include visual representation, stats, and effects
-- Cards show rarity indicators and collection status  
-
-**Priority:** Critical  
-**Estimate:** 10h
-
-#### ID: US5
-**Category:** Card Management  
-**Story:** As a player, I want to build and save multiple custom decks so that I can use different strategies for different game modes.  
-**Acceptance Criteria:**
-- Users can create named deck configurations
-- Decks enforce game rules (min/max cards, card limits, etc.)
-- Users can edit, duplicate, or delete existing decks
-- System validates deck legality before saving
-- Users can set a default deck for quick play  
-
-**Priority:** Critical  
-**Estimate:** 12h
 
 ### Gameplay Features
 
