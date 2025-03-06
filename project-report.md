@@ -99,9 +99,21 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** Medium  
 **Estimate:** 8h
 
+#### ID: US9
+**Category:** Gameplay  
+**Story:** As a player, I want to see my hole cards and community cards so that I can make strategic decisions based on the current state of the game.  
+**Acceptance Criteria:**
+- Player's private hole cards are only visible to themselves
+- Community card area clearly displays all shared cards
+- Card suits and values have clear visual distinction
+- Interface highlights the current best possible hand combination
+- Players can check odds and possible hand types at any time  
+**Priority:** Critical  
+**Estimate:** 12h
+
 ### AI Integration
 
-#### ID: US9
+#### ID: US10
 **Category:** AI Features  
 **Story:** As a player, I want to receive AI-powered recommendations during gameplay so that I can improve my strategy and decision-making.  
 **Acceptance Criteria:**
@@ -114,7 +126,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** High  
 **Estimate:** 20h
 
-#### ID: US10
+#### ID: US11
 **Category:** AI Features  
 **Story:** As a player, I want the AI to help organize my card collection and suggest optimal deck builds based on my playstyle.  
 **Acceptance Criteria:**
@@ -127,7 +139,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** Medium  
 **Estimate:** 16h
 
-#### ID: US11
+#### ID: US12
 **Category:** AI Features  
 **Story:** As a new player, I want to practice against an AI opponent of adjustable difficulty so that I can learn the game at my own pace.  
 **Acceptance Criteria:**
@@ -142,7 +154,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 
 ### Social and Community Features
 
-#### ID: US12
+#### ID: US13
 **Category:** Social Features  
 **Story:** As a player, I want to add friends and communicate with them so that I can build a gaming community and arrange matches.  
 **Acceptance Criteria:**
@@ -155,7 +167,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** High  
 **Estimate:** 10h
 
-#### ID: US13
+#### ID: US14
 **Category:** Social Features  
 **Story:** As a competitive player, I want to view leaderboards and player statistics so that I can track my progress and set goals.  
 **Acceptance Criteria:**
@@ -168,7 +180,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** Medium  
 **Estimate:** 8h
 
-#### ID: US14
+#### ID: US15
 **Category:** Tournament Features  
 **Story:** As a player, I want to create and participate in tournaments so that I can compete in a structured format with other players.  
 **Acceptance Criteria:**
@@ -183,7 +195,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 
 ### Additional Features
 
-#### ID: US15
+#### ID: US16
 **Category:** Integration  
 **Story:** As a user, I want to share my game results on social media so that I can showcase my achievements to friends outside the platform.  
 **Acceptance Criteria:**
@@ -196,7 +208,7 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Priority:** Low  
 **Estimate:** 6h
 
-#### ID: US16
+#### ID: US17
 **Category:** Accessibility  
 **Story:** As a player with visual impairments, I want accessibility features so that I can enjoy the game equally.  
 **Acceptance Criteria:**
@@ -210,48 +222,5 @@ CardMaster Arena is a strategic online card game platform designed for multiplay
 **Estimate:** 12h
 
 
-### Gameplay Experience
 
 
-#### ID: US17
-**Category:** Gameplay  
-**Story:** As a player, I want to see my hole cards and community cards so that I can make strategic decisions based on the current state of the game.  
-**Acceptance Criteria:**
-- Player's private hole cards are only visible to themselves
-- Community card area clearly displays all shared cards
-- Card suits and values have clear visual distinction
-- Interface highlights the current best possible hand combination
-- Players can check odds and possible hand types at any time  
-**Priority:** Critical  
-**Estimate:** 12h
-
-
-### AI Features
-
-
-#### ID: US19
-**Category:** AI Features  
-**Story:** As a beginner player, I want to receive real-time strategy suggestions from AI so that I can learn basic strategies and probabilities.  
-**Acceptance Criteria:**
-- AI analyzes current hole cards, community cards, and odds to provide suggestions
-- Recommendations include action choices and explanations
-- Shows current win probability and potential hand possibilities
-- Users can adjust the level of detail in AI suggestions
-- Suggestions consider current pot size and other players' behavior patterns  
-**Priority:** High  
-**Estimate:** 18h
-
-
-
-### Game Analysis
-#### ID: US22
-**Category:** Game Analysis  
-**Story:** As a player, I want to view my game history and statistical analysis so that I can understand and improve my playing strategy.  
-**Acceptance Criteria:**
-- Detailed game history including key hands, decisions, and outcomes
-- Statistical metrics displayed (profit/loss, VPIP, PFR, etc.)
-- Visual charts showing long-term performance trends
-- AI-provided strategy analysis and improvement suggestions
-- Ability to replay important hands and key decision points  
-**Priority:** Medium  
-**Estimate:** 15h
