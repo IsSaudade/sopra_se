@@ -8,7 +8,7 @@
 | Name | UZH Email | Student ID | GitHub Username |
 |------|-----------|------------|-----------------|
 | [Yutian Lei] | [yutian.lei@uzh.ch] | [23-746-258] | [IsSaudade] |
-| [Member 2] | [email2@uzh.ch] | [12-345-679] | [github-user2] |
+| [Maorong Lin] | [maorong.lin@uzh.ch] | [23-746-761] | [Qavrox] |
 | [Member 3] | [email3@uzh.ch] | [12-345-680] | [github-user3] |
 | [Member 4] | [email4@uzh.ch] | [12-345-681] | [github-user4] |
 | [Member 5] | [email5@uzh.ch] | [12-345-682] | [github-user5] |
