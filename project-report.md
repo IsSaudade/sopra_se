@@ -10,7 +10,7 @@
 | [Yutian Lei] | [yutian.lei@uzh.ch] | [23-746-258] | [IsSaudade] |
 | [Maorong Lin] | [maorong.lin@uzh.ch] | [23-746-761] | [Qavrox] |
 | [Zhan Yang] | [zhan.yang@uzh.ch] | [24-742-603] | [zyangbg] |
-| [Member 4] | [email4@uzh.ch] | [12-345-681] | [github-user4] |
+| [Guanqiao Li] | [guanqiao.li@uzh.ch] | [23-746-241] | [unscttp] |
 | [Member 5] | [email5@uzh.ch] | [12-345-682] | [github-user5] |
 
 ## Project: CardMaster Arena
